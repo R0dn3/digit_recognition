@@ -1,0 +1,24 @@
+# Ignorar entornos virtuales
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos del entorno/IDE
+.vscode/
+.idea/
+
+# Archivos binarios o modelos entrenados
+*.pkl
+*.h5
+*.pt
+*.onnx
+*.tflite
